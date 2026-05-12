@@ -44,39 +44,39 @@ LONDON_MATERIEL_INFO_202604300,pc portable,macbook air,0.25,oui
 BERLIN_MATERIEL_INFO_202604300,pc portable,macbook air,0.25,oui
 NewYork_MATERIEL_INFO_202604303,serveur,noeud de calcul,1.3,NaN
 Paris_MATERIEL_INFO_202604302,serveur,serveur de stockage,2.5,NaN
-LONDON_MATERIEL_INFO_202605015,pc fixe,optiplex small,0.24,non
-LA_MATERIEL_INFO_2026050112,pc fixe,wyse thin client,0.069,non
-LA_MATERIEL_INFO_2026050111,pc fixe,precision tower 7xxx,0.555,non
-Shanghai_MATERIEL_INFO_202605013,pc fixe,mac mini,0.27,non
-LONDON_MATERIEL_INFO_202605012,pc fixe,mac mini,0.27,non
-Shanghai_MATERIEL_INFO_202605019,pc fixe,"elitedesk (tower, sff, one)",0.393,non
-LONDON_MATERIEL_INFO_202605018,pc fixe,"elite (tower, sff, one)",0.393,non
-LA_MATERIEL_INFO_2026050110,pc fixe,omen,0.29,non
-LA_MATERIEL_INFO_202605018,pc fixe,omen,0.29,non
-LA_MATERIEL_INFO_202605014,pc fixe,optiplex all-in-one 5xxx,0.318,oui
-Shanghai_MATERIEL_INFO_202605010,pc fixe,optiplex all-in-one 7xxx,0.382,oui
-LONDON_MATERIEL_INFO_202605016,pc portable,omen,0.356,oui
-Paris_MATERIEL_INFO_202605012,pc portable,elitebook 8xx,0.29,oui
-Paris_MATERIEL_INFO_202605011,pc portable,elitebook 10xx,0.223,oui
-Shanghai_MATERIEL_INFO_202605015,pc portable,probook,0.226,oui
-LA_MATERIEL_INFO_202605010,pc portable,zbook studio,0.379,oui
-Shanghai_MATERIEL_INFO_202605012,pc portable,latitude 3xxx,0.22,oui
-LONDON_MATERIEL_INFO_202605010,pc portable,latitude 3xxx,0.22,oui
-LONDON_MATERIEL_INFO_202605017,pc portable,macbook air,0.25,oui
-LA_MATERIEL_INFO_202605019,pc portable,macbook pro 13pouces,0.256,oui
-Shanghai_MATERIEL_INFO_202605018,pc portable,macbook pro 15/16pouces,0.33,oui
-LONDON_MATERIEL_INFO_202605013,ecran,jusqu'à 23pouces,0.35,oui
-Shanghai_MATERIEL_INFO_202605011,ecran,24pouces-31pouces,0.43,oui
 BERLIN_MATERIEL_INFO_202605010,ecran,32pouces et plus,0.59,oui
-LA_MATERIEL_INFO_202605016,vidéo projecteur,modèle par défaut,0.094,NaN
-Shanghai_MATERIEL_INFO_202605014,vidéo projecteur,transportable,0.094,NaN
-LA_MATERIEL_INFO_202605012,vidéo projecteur,transportable,0.094,NaN
-LA_MATERIEL_INFO_202605011,imprimante,laser à poser (<40kg),0.43,NaN
-Shanghai_MATERIEL_INFO_202605017,imprimante,laser a3 (40-99kg),0.96,NaN
+LONDON_MATERIEL_INFO_202605010,pc portable,latitude 3xxx,0.22,oui
+LONDON_MATERIEL_INFO_202605012,pc fixe,mac mini,0.27,non
+LONDON_MATERIEL_INFO_202605013,ecran,jusqu'à 23pouces,0.35,oui
+LONDON_MATERIEL_INFO_202605015,pc fixe,optiplex small,0.24,non
+LONDON_MATERIEL_INFO_202605016,pc portable,omen,0.356,oui
+LONDON_MATERIEL_INFO_202605017,pc portable,macbook air,0.25,oui
+LONDON_MATERIEL_INFO_202605018,pc fixe,"elite (tower, sff, one)",0.393,non
 LONDON_MATERIEL_INFO_202605019,imprimante,laser a3 (40-99kg),0.96,NaN
-Paris_MATERIEL_INFO_202605010,clavier,modèle par défaut,0.024,NaN
-NewYork_MATERIEL_INFO_202605011,serveur,noeud de calcul,1.3,NaN
+LA_MATERIEL_INFO_202605010,pc portable,zbook studio,0.379,oui
+LA_MATERIEL_INFO_202605011,imprimante,laser à poser (<40kg),0.43,NaN
+LA_MATERIEL_INFO_202605012,vidéo projecteur,transportable,0.094,NaN
+LA_MATERIEL_INFO_202605014,pc fixe,optiplex all-in-one 5xxx,0.318,oui
+LA_MATERIEL_INFO_202605016,vidéo projecteur,modèle par défaut,0.094,NaN
+LA_MATERIEL_INFO_202605018,pc fixe,omen,0.29,non
+LA_MATERIEL_INFO_202605019,pc portable,macbook pro 13pouces,0.256,oui
+LA_MATERIEL_INFO_2026050110,pc fixe,omen,0.29,non
+LA_MATERIEL_INFO_2026050111,pc fixe,precision tower 7xxx,0.555,non
+LA_MATERIEL_INFO_2026050112,pc fixe,wyse thin client,0.069,non
 NewYork_MATERIEL_INFO_202605010,serveur,noeud de calcul,1.3,NaN
+NewYork_MATERIEL_INFO_202605011,serveur,noeud de calcul,1.3,NaN
+Paris_MATERIEL_INFO_202605010,clavier,modèle par défaut,0.024,NaN
+Paris_MATERIEL_INFO_202605011,pc portable,elitebook 10xx,0.223,oui
+Paris_MATERIEL_INFO_202605012,pc portable,elitebook 8xx,0.29,oui
+Shanghai_MATERIEL_INFO_202605010,pc fixe,optiplex all-in-one 7xxx,0.382,oui
+Shanghai_MATERIEL_INFO_202605011,ecran,24pouces-31pouces,0.43,oui
+Shanghai_MATERIEL_INFO_202605012,pc portable,latitude 3xxx,0.22,oui
+Shanghai_MATERIEL_INFO_202605013,pc fixe,mac mini,0.27,non
+Shanghai_MATERIEL_INFO_202605014,vidéo projecteur,transportable,0.094,NaN
+Shanghai_MATERIEL_INFO_202605015,pc portable,probook,0.226,oui
+Shanghai_MATERIEL_INFO_202605017,imprimante,laser a3 (40-99kg),0.96,NaN
+Shanghai_MATERIEL_INFO_202605018,pc portable,macbook pro 15/16pouces,0.33,oui
+Shanghai_MATERIEL_INFO_202605019,pc fixe,"elitedesk (tower, sff, one)",0.393,non
 BERLIN_MATERIEL_INFO_202605020,imprimante,modèle par défaut,0.5,NaN
 BERLIN_MATERIEL_INFO_202605021,pc fixe,precision tower 3xxx,0.285,non
 BERLIN_MATERIEL_INFO_202605022,pc portable,latitude 5xxx,0.3,oui
@@ -110,41 +110,41 @@ Shanghai_MATERIEL_INFO_202605028,imprimante,laser à poser (<40kg),0.43,NaN
 Shanghai_MATERIEL_INFO_202605029,pc portable,probook,0.226,oui
 Shanghai_MATERIEL_INFO_2026050211,clavier,modèle par défaut,0.024,NaN
 Shanghai_MATERIEL_INFO_2026050213,ecran,24pouces-31pouces,0.43,oui
-LA_MATERIEL_INFO_202605036,pc fixe,optiplex micro,0.174,non
-LONDON_MATERIEL_INFO_202605039,pc fixe,optiplex micro,0.174,non
-LA_MATERIEL_INFO_202605037,pc fixe,precision tower 7xxx,0.555,non
-LA_MATERIEL_INFO_202605035,pc fixe,precision tower 7xxx,0.555,non
-LA_MATERIEL_INFO_202605031,pc fixe,precision tower 7xxx,0.555,non
-LA_MATERIEL_INFO_202605034,pc fixe,elite mini,0.137,non
+BERLIN_MATERIEL_INFO_202605030,pc portable,moyenne 14/15pouces,0.294,oui
+LONDON_MATERIEL_INFO_202605031,station d'accueil,modèle par défaut,0.026,NaN
+LONDON_MATERIEL_INFO_202605032,ecran,modèle par défaut,0.43,oui
+LONDON_MATERIEL_INFO_202605033,pc portable,macbook air pre-retina,0.31,oui
+LONDON_MATERIEL_INFO_202605034,disque dur,modèle par défaut,0.01,NaN
+LONDON_MATERIEL_INFO_202605035,pc portable,macbook air,0.25,oui
+LONDON_MATERIEL_INFO_202605036,pc fixe,modèle par défaut,0.352,oui
 LONDON_MATERIEL_INFO_202605037,pc fixe,elitedesk dm,0.23,non
 LONDON_MATERIEL_INFO_202605038,pc fixe,"elitedesk (tower, sff, one)",0.393,non
-Paris_MATERIEL_INFO_202605037,pc fixe,z,0.409,non
+LONDON_MATERIEL_INFO_202605039,pc fixe,optiplex micro,0.174,non
+LA_MATERIEL_INFO_202605030,pc portable,moyenne 14/15pouces,0.294,oui
+LA_MATERIEL_INFO_202605031,pc fixe,precision tower 7xxx,0.555,non
+LA_MATERIEL_INFO_202605032,serveur,noeud de calcul,1.3,NaN
+LA_MATERIEL_INFO_202605033,imprimante,laser à poser (<40kg),0.43,NaN
+LA_MATERIEL_INFO_202605034,pc fixe,elite mini,0.137,non
+LA_MATERIEL_INFO_202605035,pc fixe,precision tower 7xxx,0.555,non
+LA_MATERIEL_INFO_202605036,pc fixe,optiplex micro,0.174,non
+LA_MATERIEL_INFO_202605037,pc fixe,precision tower 7xxx,0.555,non
+LA_MATERIEL_INFO_202605038,pc fixe,imac pro,0.7,oui
+LA_MATERIEL_INFO_202605039,pc portable,elitebook 6xx,0.175,oui
+NewYork_MATERIEL_INFO_202605031,vidéo projecteur,transportable,0.094,NaN
 NewYork_MATERIEL_INFO_202605032,pc fixe,rasberry pi 4,0.015,non
 NewYork_MATERIEL_INFO_202605034,pc fixe,pc fixe (moy),0.3,non
-LONDON_MATERIEL_INFO_202605036,pc fixe,modèle par défaut,0.352,oui
-Shanghai_MATERIEL_INFO_202605031,pc fixe,imac 27pouces retina,0.45,oui
-LA_MATERIEL_INFO_202605038,pc fixe,imac pro,0.7,oui
 Paris_MATERIEL_INFO_202605030,pc portable,omen,0.356,oui
-Shanghai_MATERIEL_INFO_202605033,pc portable,victus,0.267,oui
-LA_MATERIEL_INFO_202605039,pc portable,elitebook 6xx,0.175,oui
-Paris_MATERIEL_INFO_202605036,pc portable,elitebook 10xx,0.223,oui
-Paris_MATERIEL_INFO_202605039,pc portable,latitude 3xxx,0.22,oui
-Paris_MATERIEL_INFO_202605033,pc portable,latitude 5xxx,0.3,oui
-LONDON_MATERIEL_INFO_202605035,pc portable,macbook air,0.25,oui
-LONDON_MATERIEL_INFO_202605033,pc portable,macbook air pre-retina,0.31,oui
 Paris_MATERIEL_INFO_202605031,pc portable,moyenne 14/15pouces,0.294,oui
-LA_MATERIEL_INFO_202605030,pc portable,moyenne 14/15pouces,0.294,oui
-BERLIN_MATERIEL_INFO_202605030,pc portable,moyenne 14/15pouces,0.294,oui
-LONDON_MATERIEL_INFO_202605032,ecran,modèle par défaut,0.43,oui
-Paris_MATERIEL_INFO_202605035,ecran,24pouces-31pouces,0.43,oui
-NewYork_MATERIEL_INFO_202605031,vidéo projecteur,transportable,0.094,NaN
-LA_MATERIEL_INFO_202605033,imprimante,laser à poser (<40kg),0.43,NaN
-Shanghai_MATERIEL_INFO_202605030,imprimante,laser a3 (>100kg),1.8,NaN
-LONDON_MATERIEL_INFO_202605031,station d'accueil,modèle par défaut,0.026,NaN
-Shanghai_MATERIEL_INFO_202605032,clavier,modèle par défaut,0.024,NaN
-LA_MATERIEL_INFO_202605032,serveur,noeud de calcul,1.3,NaN
 Paris_MATERIEL_INFO_202605032,disque dur,modèle par défaut,0.01,NaN
-LONDON_MATERIEL_INFO_202605034,disque dur,modèle par défaut,0.01,NaN
+Paris_MATERIEL_INFO_202605033,pc portable,latitude 5xxx,0.3,oui
+Paris_MATERIEL_INFO_202605035,ecran,24pouces-31pouces,0.43,oui
+Paris_MATERIEL_INFO_202605036,pc portable,elitebook 10xx,0.223,oui
+Paris_MATERIEL_INFO_202605037,pc fixe,z,0.409,non
+Paris_MATERIEL_INFO_202605039,pc portable,latitude 3xxx,0.22,oui
+Shanghai_MATERIEL_INFO_202605030,imprimante,laser a3 (>100kg),1.8,NaN
+Shanghai_MATERIEL_INFO_202605031,pc fixe,imac 27pouces retina,0.45,oui
+Shanghai_MATERIEL_INFO_202605032,clavier,modèle par défaut,0.024,NaN
+Shanghai_MATERIEL_INFO_202605033,pc portable,victus,0.267,oui
 BERLIN_MATERIEL_INFO_202605041,vidéo projecteur,pour amphi,0.2,NaN
 BERLIN_MATERIEL_INFO_202605042,pc fixe,mac mini,0.27,non
 BERLIN_MATERIEL_INFO_202605043,pc portable,precision 7xxx,0.304,oui
@@ -825,37 +825,37 @@ Shanghai_MATERIEL_INFO_202605265,smartphone,modèle par défaut,0.063,NaN
 Shanghai_MATERIEL_INFO_202605267,disque dur,modèle par défaut,0.01,NaN
 Shanghai_MATERIEL_INFO_202605269,pc fixe,prodesk mini/dm,0.1,non
 Shanghai_MATERIEL_INFO_2026052611,ecran,32pouces et plus,0.59,oui
-Paris_MATERIEL_INFO_202605276,pc fixe,mac mini,0.27,non
-LA_MATERIEL_INFO_202605270,pc fixe,mac mini,0.27,non
-Paris_MATERIEL_INFO_202605274,pc fixe,mac pro,0.9,non
-NewYork_MATERIEL_INFO_202605271,pc fixe,elite mini,0.137,non
-LA_MATERIEL_INFO_202605274,pc fixe,omen,0.29,non
-NewYork_MATERIEL_INFO_202605272,pc fixe,z,0.409,non
-LA_MATERIEL_INFO_202605276,pc portable,omen,0.356,oui
-Shanghai_MATERIEL_INFO_202605271,pc portable,chromebook 14-15pouces,0.17,oui
-LONDON_MATERIEL_INFO_202605272,pc portable,elitebook 6xx,0.175,oui
-NewYork_MATERIEL_INFO_202605277,pc portable,elitebook 8xx,0.29,oui
-NewYork_MATERIEL_INFO_202605275,pc portable,elitebook 8xx,0.29,oui
+BERLIN_MATERIEL_INFO_202605270,pc portable,moyenne 13pouces,0.25,oui
+BERLIN_MATERIEL_INFO_202605272,ecran,32pouces et plus,0.59,oui
+LONDON_MATERIEL_INFO_202605270,telephone ip,modèle par défaut,0.017,NaN
 LONDON_MATERIEL_INFO_202605271,pc portable,zbook studio,0.379,oui
+LONDON_MATERIEL_INFO_202605272,pc portable,elitebook 6xx,0.175,oui
+LA_MATERIEL_INFO_202605270,pc fixe,mac mini,0.27,non
+LA_MATERIEL_INFO_202605272,ecran,24pouces-31pouces,0.43,oui
+LA_MATERIEL_INFO_202605273,serveur,serveur de stockage,2.5,NaN
+LA_MATERIEL_INFO_202605274,pc fixe,omen,0.29,non
+LA_MATERIEL_INFO_202605275,pc portable,moyenne 14/15pouces,0.294,oui
+LA_MATERIEL_INFO_202605276,pc portable,omen,0.356,oui
+LA_MATERIEL_INFO_202605277,pc portable,macbook air pre-retina,0.31,oui
+NewYork_MATERIEL_INFO_202605271,pc fixe,elite mini,0.137,non
+NewYork_MATERIEL_INFO_202605272,pc fixe,z,0.409,non
+NewYork_MATERIEL_INFO_202605273,station d'accueil,modèle par défaut,0.026,NaN
+NewYork_MATERIEL_INFO_202605275,pc portable,elitebook 8xx,0.29,oui
+NewYork_MATERIEL_INFO_202605277,pc portable,elitebook 8xx,0.29,oui
+NewYork_MATERIEL_INFO_202605278,vidéo projecteur,modèle par défaut,0.094,NaN
+NewYork_MATERIEL_INFO_202605279,ecran,32pouces et plus,0.59,oui
+NewYork_MATERIEL_INFO_2026052710,ecran,modèle par défaut,0.43,oui
+NewYork_MATERIEL_INFO_2026052711,disque dur,modèle par défaut,0.01,NaN
 NewYork_MATERIEL_INFO_2026052712,pc portable,latitude 7xxx,0.264,oui
 Paris_MATERIEL_INFO_202605271,pc portable,macbook air pre-retina,0.31,oui
-LA_MATERIEL_INFO_202605277,pc portable,macbook air pre-retina,0.31,oui
-Shanghai_MATERIEL_INFO_202605276,pc portable,macbook air retina,0.176,oui
-Paris_MATERIEL_INFO_202605277,pc portable,macbook air retina,0.176,oui
-BERLIN_MATERIEL_INFO_202605270,pc portable,moyenne 13pouces,0.25,oui
-LA_MATERIEL_INFO_202605275,pc portable,moyenne 14/15pouces,0.294,oui
-NewYork_MATERIEL_INFO_2026052710,ecran,modèle par défaut,0.43,oui
-LA_MATERIEL_INFO_202605272,ecran,24pouces-31pouces,0.43,oui
-Paris_MATERIEL_INFO_202605278,ecran,32pouces et plus,0.59,oui
-NewYork_MATERIEL_INFO_202605279,ecran,32pouces et plus,0.59,oui
-BERLIN_MATERIEL_INFO_202605272,ecran,32pouces et plus,0.59,oui
-NewYork_MATERIEL_INFO_202605278,vidéo projecteur,modèle par défaut,0.094,NaN
+Paris_MATERIEL_INFO_202605274,pc fixe,mac pro,0.9,non
 Paris_MATERIEL_INFO_202605275,vidéo projecteur,transportable,0.094,NaN
+Paris_MATERIEL_INFO_202605276,pc fixe,mac mini,0.27,non
+Paris_MATERIEL_INFO_202605277,pc portable,macbook air retina,0.176,oui
+Paris_MATERIEL_INFO_202605278,ecran,32pouces et plus,0.59,oui
+Shanghai_MATERIEL_INFO_202605271,pc portable,chromebook 14-15pouces,0.17,oui
 Shanghai_MATERIEL_INFO_202605272,vidéo projecteur,pour salle,0.15,NaN
-LONDON_MATERIEL_INFO_202605270,telephone ip,modèle par défaut,0.017,NaN
-NewYork_MATERIEL_INFO_202605273,station d'accueil,modèle par défaut,0.026,NaN
-LA_MATERIEL_INFO_202605273,serveur,serveur de stockage,2.5,NaN
-NewYork_MATERIEL_INFO_2026052711,disque dur,modèle par défaut,0.01,NaN
+Shanghai_MATERIEL_INFO_202605276,pc portable,macbook air retina,0.176,oui
 BERLIN_MATERIEL_INFO_202605284,pc fixe,mac pro,0.9,non
 NewYork_MATERIEL_INFO_202605284,pc fixe,"elite (tower, sff, one)",0.393,non
 LONDON_MATERIEL_INFO_202605286,pc fixe,omen,0.29,non
@@ -1285,36 +1285,36 @@ Shanghai_MATERIEL_INFO_202606103,pc fixe,omen,0.29,non
 Shanghai_MATERIEL_INFO_202606105,tablette,modèle par défaut,0.15,NaN
 Shanghai_MATERIEL_INFO_202606106,vidéo projecteur,modèle par défaut,0.094,NaN
 Shanghai_MATERIEL_INFO_202606107,pc fixe,mac pro,0.9,non
-LA_MATERIEL_INFO_202606119,pc fixe,modèle par défaut,0.35,non
-LA_MATERIEL_INFO_202606115,pc fixe,optiplex micro,0.174,non
-Shanghai_MATERIEL_INFO_2026061110,pc fixe,precision tower 5xxx,0.44,non
-Paris_MATERIEL_INFO_202606118,pc fixe,precision tower 5xxx,0.44,non
-Paris_MATERIEL_INFO_202606115,pc fixe,precision tower 5xxx,0.44,non
-Shanghai_MATERIEL_INFO_202606113,pc fixe,mac mini,0.27,non
-LONDON_MATERIEL_INFO_202606113,pc fixe,mac mini,0.27,non
-Shanghai_MATERIEL_INFO_202606116,pc fixe,"elite (tower, sff, one)",0.393,non
-LA_MATERIEL_INFO_202606114,pc fixe,omen,0.29,non
-NewYork_MATERIEL_INFO_202606112,pc fixe,z,0.409,non
-LA_MATERIEL_INFO_202606117,pc fixe,rasberry pi 4,0.015,non
-Paris_MATERIEL_INFO_202606114,pc fixe,pc fixe (moy),0.3,non
-Shanghai_MATERIEL_INFO_202606115,pc fixe,optiplex all-in-one 7xxx,0.382,oui
-Paris_MATERIEL_INFO_202606112,pc fixe,imac 21pouces retina,0.3,oui
-LA_MATERIEL_INFO_202606110,pc fixe,imac pro,0.7,oui
-Shanghai_MATERIEL_INFO_202606117,pc portable,victus,0.267,oui
-LONDON_MATERIEL_INFO_202606112,pc portable,elitebook 8xx,0.29,oui
-Shanghai_MATERIEL_INFO_202606119,pc portable,probook,0.226,oui
-Shanghai_MATERIEL_INFO_202606118,pc portable,precision 7xxx,0.304,oui
-LONDON_MATERIEL_INFO_202606111,pc portable,macbook air,0.25,oui
-NewYork_MATERIEL_INFO_202606110,pc portable,macbook pro 15/16pouces,0.33,oui
-Paris_MATERIEL_INFO_2026061111,tablette,modèle par défaut,0.15,NaN
-Paris_MATERIEL_INFO_202606116,smartphone,modèle par défaut,0.063,NaN
-NewYork_MATERIEL_INFO_202606111,imprimante,laser a3 (40-99kg),0.96,NaN
 LONDON_MATERIEL_INFO_202606110,imprimante,laser a3 (40-99kg),0.96,NaN
-LA_MATERIEL_INFO_202606118,telephone ip,modèle par défaut,0.017,NaN
-Paris_MATERIEL_INFO_202606113,clavier,modèle par défaut,0.024,NaN
-LA_MATERIEL_INFO_202606113,clavier,modèle par défaut,0.024,NaN
-Paris_MATERIEL_INFO_202606119,serveur,modèle par défaut,1.3,NaN
+LONDON_MATERIEL_INFO_202606111,pc portable,macbook air,0.25,oui
+LONDON_MATERIEL_INFO_202606112,pc portable,elitebook 8xx,0.29,oui
+LONDON_MATERIEL_INFO_202606113,pc fixe,mac mini,0.27,non
+LA_MATERIEL_INFO_202606110,pc fixe,imac pro,0.7,oui
 LA_MATERIEL_INFO_202606111,disque dur,modèle par défaut,0.01,NaN
+LA_MATERIEL_INFO_202606113,clavier,modèle par défaut,0.024,NaN
+LA_MATERIEL_INFO_202606114,pc fixe,omen,0.29,non
+LA_MATERIEL_INFO_202606115,pc fixe,optiplex micro,0.174,non
+LA_MATERIEL_INFO_202606117,pc fixe,rasberry pi 4,0.015,non
+LA_MATERIEL_INFO_202606118,telephone ip,modèle par défaut,0.017,NaN
+LA_MATERIEL_INFO_202606119,pc fixe,modèle par défaut,0.35,non
+NewYork_MATERIEL_INFO_202606110,pc portable,macbook pro 15/16pouces,0.33,oui
+NewYork_MATERIEL_INFO_202606111,imprimante,laser a3 (40-99kg),0.96,NaN
+NewYork_MATERIEL_INFO_202606112,pc fixe,z,0.409,non
+Paris_MATERIEL_INFO_202606112,pc fixe,imac 21pouces retina,0.3,oui
+Paris_MATERIEL_INFO_202606113,clavier,modèle par défaut,0.024,NaN
+Paris_MATERIEL_INFO_202606114,pc fixe,pc fixe (moy),0.3,non
+Paris_MATERIEL_INFO_202606115,pc fixe,precision tower 5xxx,0.44,non
+Paris_MATERIEL_INFO_202606116,smartphone,modèle par défaut,0.063,NaN
+Paris_MATERIEL_INFO_202606118,pc fixe,precision tower 5xxx,0.44,non
+Paris_MATERIEL_INFO_202606119,serveur,modèle par défaut,1.3,NaN
+Paris_MATERIEL_INFO_2026061111,tablette,modèle par défaut,0.15,NaN
+Shanghai_MATERIEL_INFO_202606113,pc fixe,mac mini,0.27,non
+Shanghai_MATERIEL_INFO_202606115,pc fixe,optiplex all-in-one 7xxx,0.382,oui
+Shanghai_MATERIEL_INFO_202606116,pc fixe,"elite (tower, sff, one)",0.393,non
+Shanghai_MATERIEL_INFO_202606117,pc portable,victus,0.267,oui
+Shanghai_MATERIEL_INFO_202606118,pc portable,precision 7xxx,0.304,oui
+Shanghai_MATERIEL_INFO_202606119,pc portable,probook,0.226,oui
+Shanghai_MATERIEL_INFO_2026061110,pc fixe,precision tower 5xxx,0.44,non
 Paris_MATERIEL_INFO_202606120,pc fixe,optiplex small,0.24,non
 Shanghai_MATERIEL_INFO_202606125,pc fixe,wyse thin client,0.069,non
 Shanghai_MATERIEL_INFO_202606122,pc fixe,mac pro,0.9,non
@@ -1954,40 +1954,40 @@ Shanghai_MATERIEL_INFO_202607034,pc fixe,imac 27pouces retina,0.45,oui
 Shanghai_MATERIEL_INFO_202607035,borne wifi,modèle par défaut,0.01,NaN
 Shanghai_MATERIEL_INFO_202607036,pc fixe,"elitedesk (tower, sff, one)",0.393,non
 Shanghai_MATERIEL_INFO_202607037,pc fixe,prodesk mini/dm,0.1,non
-LA_MATERIEL_INFO_202607049,pc fixe,modèle par défaut,0.35,non
-Shanghai_MATERIEL_INFO_202607046,pc fixe,optiplex small,0.24,non
-Shanghai_MATERIEL_INFO_202607045,pc fixe,optiplex tower,0.26,non
-Paris_MATERIEL_INFO_202607043,pc fixe,optiplex tower,0.26,non
-LA_MATERIEL_INFO_202607040,pc fixe,optiplex tower,0.26,non
-Shanghai_MATERIEL_INFO_202607040,pc fixe,precision tower 5xxx,0.44,non
-LA_MATERIEL_INFO_202607044,pc fixe,mac mini,0.27,non
-NewYork_MATERIEL_INFO_2026070411,pc fixe,elite mini,0.137,non
-NewYork_MATERIEL_INFO_202607047,pc fixe,elite mini,0.137,non
-LA_MATERIEL_INFO_202607043,pc fixe,"elite (tower, sff, one)",0.393,non
-Shanghai_MATERIEL_INFO_202607041,pc fixe,optiplex all-in-one 3xxx,0.241,oui
-NewYork_MATERIEL_INFO_202607041,pc fixe,optiplex all-in-one 3xxx,0.241,oui
-NewYork_MATERIEL_INFO_202607040,pc fixe,optiplex all-in-one 3xxx,0.241,oui
-BERLIN_MATERIEL_INFO_202607042,pc fixe,imac 27pouces retina,0.45,oui
-LA_MATERIEL_INFO_202607042,pc portable,omen,0.356,oui
-Shanghai_MATERIEL_INFO_202607042,pc portable,victus,0.267,oui
-NewYork_MATERIEL_INFO_202607042,pc portable,chromebook 11-13pouces,0.175,oui
-LONDON_MATERIEL_INFO_202607042,pc portable,chromebook 14-15pouces,0.17,oui
-Paris_MATERIEL_INFO_202607041,pc portable,latitude 5xxx,0.3,oui
-NewYork_MATERIEL_INFO_202607049,pc portable,macbook air,0.25,oui
-LA_MATERIEL_INFO_202607045,pc portable,macbook air pre-retina,0.31,oui
-Paris_MATERIEL_INFO_202607042,pc portable,macbook air retina,0.176,oui
-Paris_MATERIEL_INFO_202607040,pc portable,moyenne 13pouces,0.25,oui
 BERLIN_MATERIEL_INFO_202607041,ecran,24pouces-31pouces,0.43,oui
+BERLIN_MATERIEL_INFO_202607042,pc fixe,imac 27pouces retina,0.45,oui
+LONDON_MATERIEL_INFO_202607041,telephone ip,modèle par défaut,0.017,NaN
+LONDON_MATERIEL_INFO_202607042,pc portable,chromebook 14-15pouces,0.17,oui
+LONDON_MATERIEL_INFO_202607043,serveur,noeud de calcul,1.3,NaN
+LONDON_MATERIEL_INFO_202607044,clavier,modèle par défaut,0.024,NaN
+LA_MATERIEL_INFO_202607040,pc fixe,optiplex tower,0.26,non
+LA_MATERIEL_INFO_202607042,pc portable,omen,0.356,oui
+LA_MATERIEL_INFO_202607043,pc fixe,"elite (tower, sff, one)",0.393,non
+LA_MATERIEL_INFO_202607044,pc fixe,mac mini,0.27,non
+LA_MATERIEL_INFO_202607045,pc portable,macbook air pre-retina,0.31,oui
+LA_MATERIEL_INFO_202607048,telephone ip,modèle par défaut,0.017,NaN
+LA_MATERIEL_INFO_202607049,pc fixe,modèle par défaut,0.35,non
+LA_MATERIEL_INFO_2026070410,station d'accueil,modèle par défaut,0.026,NaN
+LA_MATERIEL_INFO_2026070411,imprimante,modèle par défaut,0.5,NaN
+NewYork_MATERIEL_INFO_202607040,pc fixe,optiplex all-in-one 3xxx,0.241,oui
+NewYork_MATERIEL_INFO_202607041,pc fixe,optiplex all-in-one 3xxx,0.241,oui
+NewYork_MATERIEL_INFO_202607042,pc portable,chromebook 11-13pouces,0.175,oui
 NewYork_MATERIEL_INFO_202607043,vidéo projecteur,transportable,0.094,NaN
 NewYork_MATERIEL_INFO_202607044,tablette,modèle par défaut,0.15,NaN
-LA_MATERIEL_INFO_2026070411,imprimante,modèle par défaut,0.5,NaN
-LA_MATERIEL_INFO_202607048,telephone ip,modèle par défaut,0.017,NaN
-LONDON_MATERIEL_INFO_202607041,telephone ip,modèle par défaut,0.017,NaN
+NewYork_MATERIEL_INFO_202607047,pc fixe,elite mini,0.137,non
 NewYork_MATERIEL_INFO_202607048,station d'accueil,modèle par défaut,0.026,NaN
-LA_MATERIEL_INFO_2026070410,station d'accueil,modèle par défaut,0.026,NaN
-LONDON_MATERIEL_INFO_202607044,clavier,modèle par défaut,0.024,NaN
+NewYork_MATERIEL_INFO_202607049,pc portable,macbook air,0.25,oui
+NewYork_MATERIEL_INFO_2026070411,pc fixe,elite mini,0.137,non
+Paris_MATERIEL_INFO_202607040,pc portable,moyenne 13pouces,0.25,oui
+Paris_MATERIEL_INFO_202607041,pc portable,latitude 5xxx,0.3,oui
+Paris_MATERIEL_INFO_202607042,pc portable,macbook air retina,0.176,oui
+Paris_MATERIEL_INFO_202607043,pc fixe,optiplex tower,0.26,non
+Shanghai_MATERIEL_INFO_202607040,pc fixe,precision tower 5xxx,0.44,non
+Shanghai_MATERIEL_INFO_202607041,pc fixe,optiplex all-in-one 3xxx,0.241,oui
+Shanghai_MATERIEL_INFO_202607042,pc portable,victus,0.267,oui
 Shanghai_MATERIEL_INFO_202607044,souris,modèle par défaut,0.005,NaN
-LONDON_MATERIEL_INFO_202607043,serveur,noeud de calcul,1.3,NaN
+Shanghai_MATERIEL_INFO_202607045,pc fixe,optiplex tower,0.26,non
+Shanghai_MATERIEL_INFO_202607046,pc fixe,optiplex small,0.24,non
 NewYork_MATERIEL_INFO_202607053,pc fixe,wyse thin client,0.069,non
 LONDON_MATERIEL_INFO_202607053,pc fixe,wyse thin client,0.069,non
 NewYork_MATERIEL_INFO_202607055,pc fixe,precision tower 3xxx,0.285,non
@@ -2767,38 +2767,38 @@ Shanghai_MATERIEL_INFO_202607295,pc fixe,imac 21pouces,0.29,oui
 Shanghai_MATERIEL_INFO_202607296,pc portable,latitude 7xxx,0.264,oui
 Shanghai_MATERIEL_INFO_202607297,souris,modèle par défaut,0.005,NaN
 Shanghai_MATERIEL_INFO_202607298,pc portable,omen,0.356,oui
+BERLIN_MATERIEL_INFO_202607300,pc fixe,station de travail (moy),0.6,non
+BERLIN_MATERIEL_INFO_202607301,pc fixe,station de travail (moy),0.6,non
+LONDON_MATERIEL_INFO_202607302,pc portable,zbook,0.303,oui
+LONDON_MATERIEL_INFO_202607303,imprimante,modèle par défaut,0.5,NaN
+LONDON_MATERIEL_INFO_202607304,pc fixe,zhan,0.264,non
+LONDON_MATERIEL_INFO_202607306,pc fixe,imac 21pouces retina,0.3,oui
+LONDON_MATERIEL_INFO_202607307,pc portable,latitude 3xxx,0.22,oui
+LONDON_MATERIEL_INFO_202607308,pc portable,macbook air,0.25,oui
+LONDON_MATERIEL_INFO_202607309,imprimante,laser a3 (40-99kg),0.96,NaN
+LONDON_MATERIEL_INFO_2026073010,pc portable,latitude 5xxx,0.3,oui
+LONDON_MATERIEL_INFO_2026073012,tablette,modèle par défaut,0.15,NaN
+LA_MATERIEL_INFO_202607300,vidéo projecteur,pour salle,0.15,NaN
 NewYork_MATERIEL_INFO_202607300,pc fixe,optiplex micro,0.174,non
 NewYork_MATERIEL_INFO_202607301,pc fixe,optiplex small,0.24,non
+NewYork_MATERIEL_INFO_202607303,disque dur,modèle par défaut,0.01,NaN
+NewYork_MATERIEL_INFO_202607304,pc portable,latitude 3xxx,0.22,oui
+NewYork_MATERIEL_INFO_202607305,disque dur,modèle par défaut,0.01,NaN
+NewYork_MATERIEL_INFO_202607306,pc fixe,modèle par défaut,0.352,oui
+Paris_MATERIEL_INFO_202607300,pc portable,probook,0.226,oui
+Paris_MATERIEL_INFO_202607301,souris,modèle par défaut,0.005,NaN
+Paris_MATERIEL_INFO_202607302,pc portable,latitude 5xxx,0.3,oui
+Paris_MATERIEL_INFO_202607303,vidéo projecteur,pour salle,0.15,NaN
+Paris_MATERIEL_INFO_202607304,pc portable,precision 3xxx,0.266,oui
 Shanghai_MATERIEL_INFO_202607300,pc fixe,optiplex tower,0.26,non
 Shanghai_MATERIEL_INFO_202607302,pc fixe,precision tower 3xxx,0.285,non
-Shanghai_MATERIEL_INFO_2026073013,pc fixe,"prodesk (tower, sff)",0.322,non
-LONDON_MATERIEL_INFO_202607304,pc fixe,zhan,0.264,non
-BERLIN_MATERIEL_INFO_202607301,pc fixe,station de travail (moy),0.6,non
-BERLIN_MATERIEL_INFO_202607300,pc fixe,station de travail (moy),0.6,non
-NewYork_MATERIEL_INFO_202607306,pc fixe,modèle par défaut,0.352,oui
-Shanghai_MATERIEL_INFO_202607309,pc fixe,optiplex all-in-one 7xxx,0.382,oui
-LONDON_MATERIEL_INFO_202607306,pc fixe,imac 21pouces retina,0.3,oui
-Shanghai_MATERIEL_INFO_202607306,pc portable,probook,0.226,oui
-Paris_MATERIEL_INFO_202607300,pc portable,probook,0.226,oui
-LONDON_MATERIEL_INFO_202607302,pc portable,zbook,0.303,oui
-NewYork_MATERIEL_INFO_202607304,pc portable,latitude 3xxx,0.22,oui
-LONDON_MATERIEL_INFO_202607307,pc portable,latitude 3xxx,0.22,oui
 Shanghai_MATERIEL_INFO_202607303,pc portable,latitude 5xxx,0.3,oui
-Paris_MATERIEL_INFO_202607302,pc portable,latitude 5xxx,0.3,oui
-LONDON_MATERIEL_INFO_2026073010,pc portable,latitude 5xxx,0.3,oui
-Paris_MATERIEL_INFO_202607304,pc portable,precision 3xxx,0.266,oui
-LONDON_MATERIEL_INFO_202607308,pc portable,macbook air,0.25,oui
-Shanghai_MATERIEL_INFO_2026073011,pc portable,macbook pro 13pouces,0.256,oui
 Shanghai_MATERIEL_INFO_202607304,ecran,jusqu'à 23pouces,0.35,oui
-Paris_MATERIEL_INFO_202607303,vidéo projecteur,pour salle,0.15,NaN
-LA_MATERIEL_INFO_202607300,vidéo projecteur,pour salle,0.15,NaN
 Shanghai_MATERIEL_INFO_202607305,tablette,modèle par défaut,0.15,NaN
-LONDON_MATERIEL_INFO_2026073012,tablette,modèle par défaut,0.15,NaN
-LONDON_MATERIEL_INFO_202607303,imprimante,modèle par défaut,0.5,NaN
-LONDON_MATERIEL_INFO_202607309,imprimante,laser a3 (40-99kg),0.96,NaN
-Paris_MATERIEL_INFO_202607301,souris,modèle par défaut,0.005,NaN
-NewYork_MATERIEL_INFO_202607305,disque dur,modèle par défaut,0.01,NaN
-NewYork_MATERIEL_INFO_202607303,disque dur,modèle par défaut,0.01,NaN
+Shanghai_MATERIEL_INFO_202607306,pc portable,probook,0.226,oui
+Shanghai_MATERIEL_INFO_202607309,pc fixe,optiplex all-in-one 7xxx,0.382,oui
+Shanghai_MATERIEL_INFO_2026073011,pc portable,macbook pro 13pouces,0.256,oui
+Shanghai_MATERIEL_INFO_2026073013,pc fixe,"prodesk (tower, sff)",0.322,non
 BERLIN_MATERIEL_INFO_202607311,pc portable,macbook pro 15/16pouces,0.33,oui
 BERLIN_MATERIEL_INFO_202607312,pc fixe,optiplex small,0.24,non
 LONDON_MATERIEL_INFO_202607310,pc portable,latitude 5xxx,0.3,oui
@@ -3015,34 +3015,34 @@ Shanghai_MATERIEL_INFO_202608075,imprimante,laser a3 (40-99kg),0.96,NaN
 Shanghai_MATERIEL_INFO_202608076,telephone ip,modèle par défaut,0.017,NaN
 Shanghai_MATERIEL_INFO_202608077,vidéo projecteur,pour salle,0.15,NaN
 Shanghai_MATERIEL_INFO_202608078,pc fixe,elite mini,0.137,non
-LA_MATERIEL_INFO_202608081,pc fixe,modèle par défaut,0.35,non
-LONDON_MATERIEL_INFO_202608083,pc fixe,optiplex small,0.24,non
-LA_MATERIEL_INFO_202608087,pc fixe,wyse thin client,0.069,non
-LONDON_MATERIEL_INFO_202608080,pc fixe,elitedesk dm,0.23,non
+BERLIN_MATERIEL_INFO_202608080,serveur,serveur de stockage,2.5,NaN
+BERLIN_MATERIEL_INFO_202608081,pc portable,elitebook 10xx,0.223,oui
 BERLIN_MATERIEL_INFO_202608082,pc fixe,prodesk mini/dm,0.1,non
+LONDON_MATERIEL_INFO_202608080,pc fixe,elitedesk dm,0.23,non
 LONDON_MATERIEL_INFO_202608081,pc fixe,"prodesk (tower, sff)",0.322,non
-Paris_MATERIEL_INFO_202608081,pc fixe,"elite (tower, sff, one)",0.393,non
-Paris_MATERIEL_INFO_202608080,pc fixe,zhan,0.264,non
-NewYork_MATERIEL_INFO_202608085,pc fixe,optiplex all-in-one 7xxx,0.382,oui
+LONDON_MATERIEL_INFO_202608083,pc fixe,optiplex small,0.24,non
+LONDON_MATERIEL_INFO_202608089,pc portable,omen,0.356,oui
+LA_MATERIEL_INFO_202608081,pc fixe,modèle par défaut,0.35,non
+LA_MATERIEL_INFO_202608083,vidéo projecteur,transportable,0.094,NaN
 LA_MATERIEL_INFO_202608084,pc fixe,mac pro,0.9,oui
 LA_MATERIEL_INFO_202608086,pc portable,omen,0.356,oui
-LONDON_MATERIEL_INFO_202608089,pc portable,omen,0.356,oui
+LA_MATERIEL_INFO_202608087,pc fixe,wyse thin client,0.069,non
+LA_MATERIEL_INFO_202608088,imprimante,modèle par défaut,0.5,NaN
 LA_MATERIEL_INFO_202608089,pc portable,chromebook 14-15pouces,0.17,oui
-BERLIN_MATERIEL_INFO_202608081,pc portable,elitebook 10xx,0.223,oui
-Shanghai_MATERIEL_INFO_202608082,pc portable,zbook studio,0.379,oui
 LA_MATERIEL_INFO_2026080810,pc portable,precision 3xxx,0.266,oui
-NewYork_MATERIEL_INFO_202608083,pc portable,macbook pro 13pouces,0.256,oui
-NewYork_MATERIEL_INFO_202608082,pc portable,moyenne 14/15pouces,0.294,oui
 NewYork_MATERIEL_INFO_202608080,ecran,24pouces-31pouces,0.43,oui
+NewYork_MATERIEL_INFO_202608082,pc portable,moyenne 14/15pouces,0.294,oui
+NewYork_MATERIEL_INFO_202608083,pc portable,macbook pro 13pouces,0.256,oui
+NewYork_MATERIEL_INFO_202608085,pc fixe,optiplex all-in-one 7xxx,0.382,oui
+Paris_MATERIEL_INFO_202608080,pc fixe,zhan,0.264,non
+Paris_MATERIEL_INFO_202608081,pc fixe,"elite (tower, sff, one)",0.393,non
+Paris_MATERIEL_INFO_202608082,serveur,modèle par défaut,1.3,NaN
+Paris_MATERIEL_INFO_202608083,vidéo projecteur,transportable,0.094,NaN
+Shanghai_MATERIEL_INFO_202608081,imprimante,laser a3 (>100kg),1.8,NaN
+Shanghai_MATERIEL_INFO_202608082,pc portable,zbook studio,0.379,oui
 Shanghai_MATERIEL_INFO_202608083,ecran,32pouces et plus,0.59,oui
 Shanghai_MATERIEL_INFO_202608085,vidéo projecteur,transportable,0.094,NaN
-Paris_MATERIEL_INFO_202608083,vidéo projecteur,transportable,0.094,NaN
-LA_MATERIEL_INFO_202608083,vidéo projecteur,transportable,0.094,NaN
 Shanghai_MATERIEL_INFO_202608086,vidéo projecteur,pour salle,0.15,NaN
-LA_MATERIEL_INFO_202608088,imprimante,modèle par défaut,0.5,NaN
-Shanghai_MATERIEL_INFO_202608081,imprimante,laser a3 (>100kg),1.8,NaN
-Paris_MATERIEL_INFO_202608082,serveur,modèle par défaut,1.3,NaN
-BERLIN_MATERIEL_INFO_202608080,serveur,serveur de stockage,2.5,NaN
 BERLIN_MATERIEL_INFO_202608090,tablette,modèle par défaut,0.15,NaN
 LONDON_MATERIEL_INFO_202608090,pc fixe,"prodesk (tower, sff)",0.322,non
 LONDON_MATERIEL_INFO_202608091,pc fixe,optiplex all-in-one 7xxx,0.382,oui
@@ -3638,36 +3638,36 @@ Shanghai_MATERIEL_INFO_202608284,pc portable,latitude 3xxx,0.22,oui
 Shanghai_MATERIEL_INFO_202608285,pc fixe,precision tower 3xxx,0.285,non
 Shanghai_MATERIEL_INFO_202608286,pc fixe,z,0.409,non
 Shanghai_MATERIEL_INFO_202608288,ecran,jusqu'à 23pouces,0.35,oui
-Shanghai_MATERIEL_INFO_202608294,pc fixe,wyse thin client,0.069,non
-Shanghai_MATERIEL_INFO_202608298,pc fixe,precision tower 7xxx,0.555,non
-LA_MATERIEL_INFO_202608295,pc fixe,mac pro,0.9,non
-NewYork_MATERIEL_INFO_202608291,pc fixe,"elitedesk (tower, sff, one)",0.393,non
-Shanghai_MATERIEL_INFO_2026082910,pc fixe,rasberry pi 4,0.015,non
-Paris_MATERIEL_INFO_202608291,pc fixe,rasberry pi 4,0.015,non
-Paris_MATERIEL_INFO_202608293,pc fixe,station de travail (moy),0.6,non
-LONDON_MATERIEL_INFO_202608298,pc fixe,modèle par défaut,0.352,oui
-Shanghai_MATERIEL_INFO_202608295,pc fixe,optiplex all-in-one 3xxx,0.241,oui
-Paris_MATERIEL_INFO_202608290,pc fixe,imac 21pouces retina,0.3,oui
-BERLIN_MATERIEL_INFO_202608291,pc fixe,imac 21pouces retina,0.3,oui
-LONDON_MATERIEL_INFO_202608297,pc portable,omen,0.356,oui
-LONDON_MATERIEL_INFO_202608296,pc portable,elitebook 6xx,0.175,oui
-LONDON_MATERIEL_INFO_202608294,pc portable,elitebook 8xx,0.29,oui
-LA_MATERIEL_INFO_202608293,pc portable,zbook,0.303,oui
-NewYork_MATERIEL_INFO_202608290,pc portable,latitude 3xxx,0.22,oui
 BERLIN_MATERIEL_INFO_202608290,pc portable,latitude 7xxx,0.264,oui
-Shanghai_MATERIEL_INFO_202608290,pc portable,precision 7xxx,0.304,oui
-BERLIN_MATERIEL_INFO_202608294,pc portable,macbook air,0.25,oui
+BERLIN_MATERIEL_INFO_202608291,pc fixe,imac 21pouces retina,0.3,oui
 BERLIN_MATERIEL_INFO_202608292,pc portable,macbook air,0.25,oui
-Shanghai_MATERIEL_INFO_202608292,pc portable,moyenne 13pouces,0.25,oui
-LONDON_MATERIEL_INFO_202608292,ecran,modèle par défaut,0.43,oui
+BERLIN_MATERIEL_INFO_202608294,pc portable,macbook air,0.25,oui
 LONDON_MATERIEL_INFO_202608291,ecran,jusqu'à 23pouces,0.35,oui
+LONDON_MATERIEL_INFO_202608292,ecran,modèle par défaut,0.43,oui
+LONDON_MATERIEL_INFO_202608294,pc portable,elitebook 8xx,0.29,oui
+LONDON_MATERIEL_INFO_202608295,serveur,noeud de calcul,1.3,NaN
+LONDON_MATERIEL_INFO_202608296,pc portable,elitebook 6xx,0.175,oui
+LONDON_MATERIEL_INFO_202608297,pc portable,omen,0.356,oui
+LONDON_MATERIEL_INFO_202608298,pc fixe,modèle par défaut,0.352,oui
 LA_MATERIEL_INFO_202608290,ecran,24pouces-31pouces,0.43,oui
 LA_MATERIEL_INFO_202608291,ecran,32pouces et plus,0.59,oui
-Shanghai_MATERIEL_INFO_202608293,telephone ip,modèle par défaut,0.017,NaN
-LA_MATERIEL_INFO_202608296,souris,modèle par défaut,0.005,NaN
-Shanghai_MATERIEL_INFO_202608296,serveur,modèle par défaut,1.3,NaN
-LONDON_MATERIEL_INFO_202608295,serveur,noeud de calcul,1.3,NaN
+LA_MATERIEL_INFO_202608293,pc portable,zbook,0.303,oui
 LA_MATERIEL_INFO_202608294,disque dur,modèle par défaut,0.01,NaN
+LA_MATERIEL_INFO_202608295,pc fixe,mac pro,0.9,non
+LA_MATERIEL_INFO_202608296,souris,modèle par défaut,0.005,NaN
+NewYork_MATERIEL_INFO_202608290,pc portable,latitude 3xxx,0.22,oui
+NewYork_MATERIEL_INFO_202608291,pc fixe,"elitedesk (tower, sff, one)",0.393,non
+Paris_MATERIEL_INFO_202608290,pc fixe,imac 21pouces retina,0.3,oui
+Paris_MATERIEL_INFO_202608291,pc fixe,rasberry pi 4,0.015,non
+Paris_MATERIEL_INFO_202608293,pc fixe,station de travail (moy),0.6,non
+Shanghai_MATERIEL_INFO_202608290,pc portable,precision 7xxx,0.304,oui
+Shanghai_MATERIEL_INFO_202608292,pc portable,moyenne 13pouces,0.25,oui
+Shanghai_MATERIEL_INFO_202608293,telephone ip,modèle par défaut,0.017,NaN
+Shanghai_MATERIEL_INFO_202608294,pc fixe,wyse thin client,0.069,non
+Shanghai_MATERIEL_INFO_202608295,pc fixe,optiplex all-in-one 3xxx,0.241,oui
+Shanghai_MATERIEL_INFO_202608296,serveur,modèle par défaut,1.3,NaN
+Shanghai_MATERIEL_INFO_202608298,pc fixe,precision tower 7xxx,0.555,non
+Shanghai_MATERIEL_INFO_2026082910,pc fixe,rasberry pi 4,0.015,non
 BERLIN_MATERIEL_INFO_202608300,serveur,serveur de stockage,2.5,NaN
 LONDON_MATERIEL_INFO_202608301,serveur,modèle par défaut,1.3,NaN
 LA_MATERIEL_INFO_202608300,souris,modèle par défaut,0.005,NaN
@@ -4955,34 +4955,34 @@ LA_MATERIEL_INFO_202610111,ecran,32pouces et plus,0.59,oui
 Shanghai_MATERIEL_INFO_202610110,vidéo projecteur,transportable,0.094,NaN
 NewYork_MATERIEL_INFO_202610116,smartphone,modèle par défaut,0.063,NaN
 NewYork_MATERIEL_INFO_202610112,station d'accueil,modèle par défaut,0.026,NaN
-Paris_MATERIEL_INFO_202610121,pc fixe,precision tower 5xxx,0.44,non
-NewYork_MATERIEL_INFO_202610121,pc fixe,mac mini,0.27,non
-Shanghai_MATERIEL_INFO_202610127,pc fixe,mac pro,0.9,non
-NewYork_MATERIEL_INFO_202610124,pc fixe,mac pro,0.9,non
-LONDON_MATERIEL_INFO_202610126,pc fixe,elite mini,0.137,non
 BERLIN_MATERIEL_INFO_202610121,pc fixe,"prodesk (tower, sff)",0.322,non
-Shanghai_MATERIEL_INFO_202610123,pc fixe,omen,0.29,non
-Shanghai_MATERIEL_INFO_202610121,pc fixe,station de travail (moy),0.6,non
-Shanghai_MATERIEL_INFO_202610125,pc fixe,optiplex all-in-one 3xxx,0.241,oui
-Shanghai_MATERIEL_INFO_202610126,pc portable,omen,0.356,oui
-NewYork_MATERIEL_INFO_202610125,pc portable,omen,0.356,oui
-Shanghai_MATERIEL_INFO_202610124,pc portable,elitebook 10xx,0.223,oui
-LONDON_MATERIEL_INFO_202610122,pc portable,elitebook 10xx,0.223,oui
-Shanghai_MATERIEL_INFO_202610120,pc portable,precision 5xxx,0.28,oui
-LONDON_MATERIEL_INFO_202610125,pc portable,precision 5xxx,0.28,oui
-LONDON_MATERIEL_INFO_202610121,pc portable,macbook pro 15/16pouces,0.33,oui
-NewYork_MATERIEL_INFO_202610126,pc portable,moyenne 13pouces,0.25,oui
-Paris_MATERIEL_INFO_202610120,pc portable,moyenne 14/15pouces,0.294,oui
-Shanghai_MATERIEL_INFO_202610122,ecran,jusqu'à 23pouces,0.35,oui
-NewYork_MATERIEL_INFO_202610128,tablette,modèle par défaut,0.15,NaN
-LA_MATERIEL_INFO_202610121,tablette,modèle par défaut,0.15,NaN
-NewYork_MATERIEL_INFO_202610120,imprimante,laser a3 (40-99kg),0.96,NaN
 BERLIN_MATERIEL_INFO_202610124,imprimante,laser a3 (40-99kg),0.96,NaN
+BERLIN_MATERIEL_INFO_202610125,serveur,noeud de calcul,1.3,NaN
+LONDON_MATERIEL_INFO_202610121,pc portable,macbook pro 15/16pouces,0.33,oui
+LONDON_MATERIEL_INFO_202610122,pc portable,elitebook 10xx,0.223,oui
+LONDON_MATERIEL_INFO_202610124,borne wifi,modèle par défaut,0.01,NaN
+LONDON_MATERIEL_INFO_202610125,pc portable,precision 5xxx,0.28,oui
+LONDON_MATERIEL_INFO_202610126,pc fixe,elite mini,0.137,non
+LA_MATERIEL_INFO_202610121,tablette,modèle par défaut,0.15,NaN
 LA_MATERIEL_INFO_202610122,station d'accueil,modèle par défaut,0.026,NaN
 LA_MATERIEL_INFO_202610123,borne wifi,modèle par défaut,0.01,NaN
-LONDON_MATERIEL_INFO_202610124,borne wifi,modèle par défaut,0.01,NaN
-BERLIN_MATERIEL_INFO_202610125,serveur,noeud de calcul,1.3,NaN
+NewYork_MATERIEL_INFO_202610120,imprimante,laser a3 (40-99kg),0.96,NaN
+NewYork_MATERIEL_INFO_202610121,pc fixe,mac mini,0.27,non
+NewYork_MATERIEL_INFO_202610124,pc fixe,mac pro,0.9,non
+NewYork_MATERIEL_INFO_202610125,pc portable,omen,0.356,oui
+NewYork_MATERIEL_INFO_202610126,pc portable,moyenne 13pouces,0.25,oui
+NewYork_MATERIEL_INFO_202610128,tablette,modèle par défaut,0.15,NaN
 NewYork_MATERIEL_INFO_2026101211,serveur,serveur de stockage,2.5,NaN
+Paris_MATERIEL_INFO_202610120,pc portable,moyenne 14/15pouces,0.294,oui
+Paris_MATERIEL_INFO_202610121,pc fixe,precision tower 5xxx,0.44,non
+Shanghai_MATERIEL_INFO_202610120,pc portable,precision 5xxx,0.28,oui
+Shanghai_MATERIEL_INFO_202610121,pc fixe,station de travail (moy),0.6,non
+Shanghai_MATERIEL_INFO_202610122,ecran,jusqu'à 23pouces,0.35,oui
+Shanghai_MATERIEL_INFO_202610123,pc fixe,omen,0.29,non
+Shanghai_MATERIEL_INFO_202610124,pc portable,elitebook 10xx,0.223,oui
+Shanghai_MATERIEL_INFO_202610125,pc fixe,optiplex all-in-one 3xxx,0.241,oui
+Shanghai_MATERIEL_INFO_202610126,pc portable,omen,0.356,oui
+Shanghai_MATERIEL_INFO_202610127,pc fixe,mac pro,0.9,non
 LONDON_MATERIEL_INFO_2026101312,pc fixe,optiplex micro,0.174,non
 Shanghai_MATERIEL_INFO_202610130,pc fixe,optiplex tower,0.26,non
 LONDON_MATERIEL_INFO_202610136,pc fixe,mac mini,0.27,non
