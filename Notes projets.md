@@ -72,3 +72,19 @@ colonne calculée - IMPACT CARBONE
 #VILLE
 PAYS
 CONTINENT
+
+
+
+## Ce qui reste
+#### L'ETL 
+- [ ] Faire les tables caches - RZ
+- [ ] finaliser mission - RZ
+
+### Base
+- [ ] Nettoyage des données 
+	- [ ] Vérifier où sont les valeurs manquantes
+	- [ ] Faire des choix de remplacement
+		- [ ] Mettre None, quand on sait pas comment remplacer
+		- [ ] Faire des déductions sur comment remplacer possiblement la donnée par un truc vraisemblable
+- [ ] Charger toutes les tables du modèle et les enregistrer sous format csv
+- [ ] Faire les requêtes pour les questions
