@@ -60,88 +60,108 @@ c2.metric("Impact matériel", f"{impact_materiel:.2f} tCO₂e")
 c3.metric("Impact total", f"{impact_total:.2f} tCO₂e")
 
 st.divider()
+st.header("Figures décisionnelles")
 
-impact_site_missions = missions_f.groupby("SITE", as_index=False)["IMPACT_CARBONE"].sum()
-impact_site_materiel = materiels_f.groupby("SITE", as_index=False)["IMPACT"].sum()
+st.subheader("Top 5 des missions les plus impactantes sur le site de Paris")
 
-impact_site = impact_site_missions.merge(
-    impact_site_materiel,
-    on="SITE",
-    how="outer"
-).fillna(0)
-
-impact_site["IMPACT_TOTAL"] = impact_site["IMPACT_CARBONE"] + impact_site["IMPACT"]
-
-fig_site = px.bar(
-    impact_site.sort_values("IMPACT_TOTAL", ascending=False),
-    x="SITE",
-    y="IMPACT_TOTAL",
-    title="Impact carbone total par site",
-    labels={"IMPACT_TOTAL": "Impact total (tCO₂e)"}
+result18 = (
+    missions[missions["SITE"] == "Paris"]
+    .groupby(["ID_MISSION", "TYPE_MISSION"], as_index=False)["IMPACT_CARBONE"]
+    .sum()
+    .rename(columns={"IMPACT_CARBONE": "IMPACT_TOTAL"})
+    .sort_values("IMPACT_TOTAL", ascending=False)
+    .head(5)
 )
 
-st.plotly_chart(fig_site, use_container_width=True)
+fig18 = px.bar(
+    result18,
+    x="ID_MISSION",
+    y="IMPACT_TOTAL",
+    color="TYPE_MISSION",
+    title="Top 5 des missions les plus impactantes à Paris",
+    labels={
+        "ID_MISSION": "Mission",
+        "IMPACT_TOTAL": "Impact carbone (tCO₂e)",
+        "TYPE_MISSION": "Type de mission"
+    }
+)
 
-col1, col2 = st.columns(2)
+st.plotly_chart(fig18, use_container_width=True)
 
-with col1:
-    impact_transport = missions_f.groupby("TRANSPORT", as_index=False)["IMPACT_CARBONE"].sum()
-    fig_transport = px.pie(
-        impact_transport,
-        names="TRANSPORT",
-        values="IMPACT_CARBONE",
-        title="Répartition de l’impact des missions par transport"
-    )
-    st.plotly_chart(fig_transport, use_container_width=True)
+st.subheader("Impact mensuel des missions par transport et par site")
 
-with col2:
-    impact_type_mat = materiels_f.groupby("TYPE", as_index=False)["IMPACT"].sum()
-    fig_mat = px.bar(
-        impact_type_mat.sort_values("IMPACT", ascending=False),
-        x="TYPE",
-        y="IMPACT",
-        title="Impact matériel par type",
-        labels={"IMPACT": "Impact matériel (tCO₂e)"}
-    )
-    st.plotly_chart(fig_mat, use_container_width=True)
+result19 = (
+    missions
+    .groupby(["SITE", "MOIS", "TRANSPORT"], as_index=False)["IMPACT_CARBONE"]
+    .sum()
+    .rename(columns={"IMPACT_CARBONE": "IMPACT_TOTAL"})
+)
 
-st.divider()
+result19["PERIODE"] = "2026-" + result19["MOIS"].astype(str).str.zfill(2)
 
-impact_mensuel_missions = missions_f.groupby(["ANNEE", "MOIS"], as_index=False)["IMPACT_CARBONE"].sum()
-impact_mensuel_materiel = materiels_f.groupby(["ANNEE", "MOIS"], as_index=False)["IMPACT"].sum()
+fig19 = px.bar(
+    result19,
+    x="PERIODE",
+    y="IMPACT_TOTAL",
+    color="TRANSPORT",
+    facet_col="SITE",
+    facet_col_wrap=3,
+    title="Impact carbone mensuel des missions par transport et par site",
+    labels={
+        "PERIODE": "Mois",
+        "IMPACT_TOTAL": "Impact carbone (tCO₂e)",
+        "TRANSPORT": "Transport"
+    }
+)
 
-impact_mensuel = impact_mensuel_missions.merge(
-    impact_mensuel_materiel,
+st.plotly_chart(fig19, use_container_width=True)
+
+st.subheader("Impact carbone global mensuel de l'organisation")
+
+impact_missions = (
+    missions
+    .groupby(["ANNEE", "MOIS"], as_index=False)["IMPACT_CARBONE"]
+    .sum()
+)
+
+impact_materiel = (
+    materiels
+    .groupby(["ANNEE", "MOIS"], as_index=False)["IMPACT"]
+    .sum()
+)
+
+result20 = impact_missions.merge(
+    impact_materiel,
     on=["ANNEE", "MOIS"],
     how="outer"
 ).fillna(0)
 
-impact_mensuel["IMPACT_TOTAL"] = impact_mensuel["IMPACT_CARBONE"] + impact_mensuel["IMPACT"]
-impact_mensuel["PERIODE"] = impact_mensuel["ANNEE"].astype(str) + "-" + impact_mensuel["MOIS"].astype(str).str.zfill(2)
+result20["IMPACT_TOTAL"] = result20["IMPACT_CARBONE"] + result20["IMPACT"]
 
-fig_mois = px.line(
-    impact_mensuel.sort_values("PERIODE"),
+result20["PERIODE"] = (
+    result20["ANNEE"].astype(str)
+    + "-"
+    + result20["MOIS"].astype(str).str.zfill(2)
+)
+
+result20 = result20.sort_values("PERIODE")
+
+fig20 = px.line(
+    result20,
     x="PERIODE",
     y="IMPACT_TOTAL",
     markers=True,
     title="Impact carbone global mensuel",
-    labels={"IMPACT_TOTAL": "Impact total (tCO₂e)"}
+    labels={
+        "PERIODE": "Mois",
+        "IMPACT_TOTAL": "Impact carbone total (tCO₂e)"
+    }
 )
 
-st.plotly_chart(fig_mois, use_container_width=True)
+st.plotly_chart(fig20, use_container_width=True)
 
-st.subheader("Données filtrées")
-
-tab1, tab2 = st.tabs(["Missions", "Matériel"])
-
-with tab1:
-    st.dataframe(missions_f, use_container_width=True)
-
-with tab2:
-    st.dataframe(materiels_f, use_container_width=True)
-    
 st.divider()
-st.header("Requêtes décisionnelles")
+st.header("Questions décisionnelles")
 
 question = st.selectbox(
     "Choisir une question",
@@ -158,32 +178,32 @@ question = st.selectbox(
 )
 
 if question == "10. Secteur le plus impactant":
-    impact_missions = missions.groupby("FONCTION_PERSONNEL", as_index=False)["IMPACT_CARBONE"].sum()
-    impact_materiel = materiels.groupby("FONCTION_PERSONNEL", as_index=False)["IMPACT"].sum()
+    impact_missions_q = missions.groupby("FONCTION_PERSONNEL", as_index=False)["IMPACT_CARBONE"].sum()
+    impact_materiel_q = materiels.groupby("FONCTION_PERSONNEL", as_index=False)["IMPACT"].sum()
 
-    result = impact_missions.merge(
-        impact_materiel,
+    result = impact_missions_q.merge(
+        impact_materiel_q,
         on="FONCTION_PERSONNEL",
         how="outer"
     ).fillna(0)
 
     result["IMPACT_TOTAL"] = result["IMPACT_CARBONE"] + result["IMPACT"]
-    result = result.sort_values("IMPACT_TOTAL", ascending=False).head(1)
+    result = result.sort_values("IMPACT_TOTAL", ascending=False)
 
     st.dataframe(result, use_container_width=True)
 
 elif question == "11. Site le plus impactant":
-    impact_missions = missions.groupby("SITE", as_index=False)["IMPACT_CARBONE"].sum()
-    impact_materiel = materiels.groupby("SITE", as_index=False)["IMPACT"].sum()
+    impact_missions_q = missions.groupby("SITE", as_index=False)["IMPACT_CARBONE"].sum()
+    impact_materiel_q = materiels.groupby("SITE", as_index=False)["IMPACT"].sum()
 
-    result = impact_missions.merge(
-        impact_materiel,
+    result = impact_missions_q.merge(
+        impact_materiel_q,
         on="SITE",
         how="outer"
     ).fillna(0)
 
     result["IMPACT_TOTAL"] = result["IMPACT_CARBONE"] + result["IMPACT"]
-    result = result.sort_values("IMPACT_TOTAL", ascending=False).head(1)
+    result = result.sort_values("IMPACT_TOTAL", ascending=False)
 
     st.dataframe(result, use_container_width=True)
 
@@ -203,6 +223,8 @@ elif question == "12. Missions entre sites en septembre 2026":
     )["IMPACT_CARBONE"].sum()
 
     result = result.rename(columns={"IMPACT_CARBONE": "IMPACT_TOTAL"})
+    result = result.sort_values("IMPACT_TOTAL", ascending=False)
+
     st.dataframe(result, use_container_width=True)
 
 elif question == "13. Impact des séminaires à Los Angeles en juillet 2026":
@@ -228,7 +250,8 @@ elif question == "14. Secteur le plus impactant pour les conférences":
         as_index=False
     )["IMPACT_CARBONE"].sum()
 
-    result = result.sort_values("IMPACT_CARBONE", ascending=False).head(1)
+    result = result.sort_values("IMPACT_CARBONE", ascending=False)
+
     st.dataframe(result, use_container_width=True)
 
 elif question == "15. Âge moyen des Data Engineers en formation":
@@ -255,7 +278,8 @@ elif question == "16. Destination la plus impactante":
         as_index=False
     )["IMPACT_CARBONE"].sum()
 
-    result = result.sort_values("IMPACT_CARBONE", ascending=False).head(1)
+    result = result.sort_values("IMPACT_CARBONE", ascending=False)
+
     st.dataframe(result, use_container_width=True)
 
 elif question == "17. Top 3 catégories de missions pour les cadres en Europe":
@@ -279,4 +303,5 @@ elif question == "17. Top 3 catégories de missions pour les cadres en Europe":
     )["IMPACT_CARBONE"].sum()
 
     result = result.sort_values("IMPACT_CARBONE", ascending=False).head(3)
+
     st.dataframe(result, use_container_width=True)
